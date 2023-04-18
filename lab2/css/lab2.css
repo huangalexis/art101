@@ -4,6 +4,5 @@
 .minor-section {
     padding: 10px;
     margin-bottom: 10px;
-    border: solid 1px #888;
-    background-color: #DDD8C4;
-  }
+    background: rgb(104,156,255);
+    background: linear-gradient(90deg, rgba(104,156,255,1) 0%, rgba(134,223,255,1) 100%);    }
