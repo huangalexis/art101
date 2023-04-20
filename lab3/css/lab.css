@@ -4,6 +4,21 @@
 .minor-section {
     padding: 10px;
     margin-bottom: 10px;
-    border: solid 1px #888;
-    background-color: #DDD8C4;
+ 
   }
+
+p{
+  margin-bottom: -5px;
+}
+
+img{
+  padding-top: 15px;
+  padding-left: 15px;
+}
+
+.description{
+  font-family: 'Noto Sans', sans-serif;
+  text-align: center;
+  margin-top: -30px;
+  padding-bottom: 10px;
+}
