@@ -1,7 +1,59 @@
 /* this css file will only style the homepage of our site */
 
-#my-portrait {
-  width: 250px;
-  padding: 20px;  
-  margin-bottom: -20px;
+.minor-section{
+  display: inline-block;
+  margin-left:50px
 }
+
+#aboutme {
+  width: 600px;
+  height: auto;
+  background: #f5f9fe;
+  position: relative;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+  display: inline-block;
+  float: right;
+  margin-right: 100px;
+  margin-top: 150px
+}
+#aboutme:before {
+  content: "";
+  position: absolute;
+  right: 100%;
+  top: 26px;
+  width: 0;
+  height: 0;
+  border-top: 13px solid transparent;
+  border-right: 26px solid #f5f9fe;
+  border-bottom: 13px solid transparent;
+}
+
+#my-portrait {
+  width: 400px;
+  display: inline-block;
+  float: left;
+  margin-left: 25px;
+  margin-right: -75px;
+  margin-bottom: -50px;
+  margin-top: 25px;
+}
+
+p{
+  font-size: 125%;
+  font-style: italic;
+}
+
+#content{
+  padding-left: 50px;
+}
+
+h1{
+  background: #f5f9fe;
+  border-top-right-radius: 25px;
+  border-bottom-left-radius: 25px;
+  text-align: left;
+  margin-right: 550px;
+}
+

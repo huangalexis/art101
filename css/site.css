@@ -22,7 +22,6 @@ h1 {
   font-size: 400%;
   color: #8d9cb0;
   text-align: center;
-  margin: auto;
   padding: 25px
 }
 
@@ -37,6 +36,7 @@ h2 {
 #content {
   margin: 10px;
   padding: 20px;
+  padding-bottom: 50px;
   background-color: #e2ecff;
 }
 
@@ -58,10 +58,24 @@ p {
   background-color: #f5f9ff;
 }
 
+.assignments{
+  padding: 5px;
+  margin-top: 50px;
+  margin-bottom: 10px;
+  margin-right: 25px;
+  background-color: #f5f9ff;
+  font-family: 'Noto Sans', sans-serif;
+  font-style: italic;
+}
+
 a{
-  color: #8d9cb0
+  color: #8d9cb0;
+  font-family: 'Noto Sans', sans-serif;
+  font-style: italic;
 }
 
 ul{
-  color: #8d9cb0
+  color: #8d9cb0;
+  font-family: 'Noto Sans', sans-serif;
+  font-style: italic;
 }
