@@ -2,7 +2,7 @@
 
 .minor-section{
   display: inline-block;
-  margin-left:50px
+  margin-left:50px;
 }
 
 #aboutme {
@@ -16,7 +16,7 @@
   display: inline-block;
   float: right;
   margin-right: 100px;
-  margin-top: 150px
+  margin-top: 150px;
 }
 #aboutme:before {
   content: "";
@@ -41,6 +41,7 @@
 }
 
 p{
+  overflow: hidden;
   font-size: 125%;
   font-style: italic;
 }
@@ -55,5 +56,17 @@ h1{
   border-bottom-left-radius: 25px;
   text-align: left;
   margin-right: 550px;
+  animation-duration: 3s;
+  animation-name: slideleft;
 }
+@keyframes slideleft {
+  from {
+    margin-left: 100%;
+    width: 75%;
+  }
 
+  to {
+    margin-left: 0%;
+    width: 47.5%;
+  }
+}
