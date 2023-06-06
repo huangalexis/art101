@@ -1,7 +1,6 @@
 // // Author: Alexis Huang and Scott Kuwahara
 // Date: 6 June
 
-
 function getAndPutData(url) {
     // Check if the button click works
     console.log("button clicked");
